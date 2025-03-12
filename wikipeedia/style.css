@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media (prefers-color-scheme: dark) {
+    * {
+      background: #101418 !important;
+      color: rgb(65, 65, 231) !important;
+    }
+
+  button{
+    transition: 0.5s;
+    font-size: 200%;
+    background-color: #101418 !important;
+    border-color: rgb(65, 65, 231);
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bolder !important;
+  }
+  button:hover{
+    transition: 0.5s;
+    color: rgb(40, 92, 235);
+    border-color: rgb(40, 92, 235);
+  }
+  .main{
+    font-style: oblique !important;
+    margin-top: 20px !important;
+    font-size: 450% !important;
+    font-weight: bolder !important;
+    text-shadow: 0px 0px 10px rgb(87, 65, 167) !important ;
+    transition: 0.50s ;
+    border: 0px;
+    background-color: #101418 !important;
+    
+  }
+  .main:hover{
+    transition: 0.50s !important;
+    color: rgb(87, 52, 243) !important;
+    text-shadow: 0px 0px 4px rgb(110, 86, 247) !important;
+    cursor: pointer ;
+}
+
+  .image{
+    display: none !important;
+  }
+  .imagedark{
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+button{
+  font-weight: bolder !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(201, 63, 81);
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+.wrapper {
+    text-align: center;
+    border: 1cm;
+    border-color: black;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagedark{
+    display: none;
+}
+
+.main{
+    font-style: oblique;
+    margin-top: 20px;
+    font-size: 450%;
+    font-weight: bolder;
+    text-shadow: 0px 0px 10px grey;
+    transition: 0.50s;
+    border: 0px;
+    background-color: rgb(243, 243, 243);
+    
+}
+
+.main:hover{
+    transition: 0.50s;
+    color: rgb(231, 83, 103);
+    text-shadow: 0px 0px 4px white;
+    cursor: pointer;
+}
+
+input {
+    size: 20%;
+    border-color: black;
+    border-end-start-radius: 2000px;
+    border-end-end-radius: 2000px;
+    border-start-start-radius: 2000px;
+    border-start-end-radius: 2000px;
+    width: 20%;
+    height: 60%;
+    text-align: center;
+    font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+}
